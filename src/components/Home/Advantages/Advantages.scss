@@ -1,0 +1,37 @@
+.advantages{
+	padding: 110px 0 125px 0;
+	h2{
+		font-size: 36px;
+		text-align: center;
+		font-weight: 500;
+		margin-bottom: 40px;
+	}
+	.row{
+		justify-content: center;
+		gap: 30px;
+		flex-wrap: wrap;
+	}
+	img{
+		height: 48px;
+		width: auto;
+	}
+	.advantages__card{
+		max-width: 320px;
+		padding: 30px;
+		border-radius: 20px;
+		background: #00D7E4;
+		color: white;
+		text-align: center;
+		p{
+			margin-top: 30px;
+			font-size: 18px;
+			font-weight: 500;
+		}
+	}
+}
+
+@media all and (max-width: 780px) {
+	.advantages{
+		padding: 70px 0;
+	}
+}

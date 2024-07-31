@@ -1,0 +1,48 @@
+.burger{
+	display: none;
+}
+
+@media all and (max-width: 780px) {
+	.burger{
+		position: relative;
+		z-index: 2;
+		border: none;
+		background: none;
+		display: flex;
+		flex-direction: column;
+		height: 26px;
+		width: 40px;
+		flex-shrink: 0;
+		justify-content: space-between;
+		align-items: flex-end;
+
+		figure{
+			height: 4px;
+			background-color: #00D7E4;
+			transition: all 0.3s;
+		}
+		figure:nth-child(1){
+			width: 100%;
+		}
+		figure:nth-child(2){
+			width: 70%;
+		}
+		figure:nth-child(3){
+			width: 85%;
+		}
+	}
+	.burger.active{
+		figure:nth-child(1){
+			width: 100%;
+			transform: translate(0, 10px) rotate(45deg);
+		}
+		figure:nth-child(2){
+			width: 0;
+			transform: translate(-17px);
+		}
+		figure:nth-child(3){
+			width: 100%;
+			transform: translate(0, -10px) rotate(-45deg);
+		}
+	}
+}

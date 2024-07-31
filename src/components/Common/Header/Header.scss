@@ -1,0 +1,14 @@
+header{
+	padding: 20px 0;
+	.row{
+		align-items: center;
+		justify-content: space-between;
+		gap: 30px;
+	}
+	.header__logo{
+		width: 169px;
+		height: 28px;
+		position: relative;
+		z-index: 2;
+	}
+}

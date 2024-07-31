@@ -1,0 +1,91 @@
+.prices{
+	background: url("../../../assets/img/background-2.png") 0 0/100% 100% no-repeat;
+	padding: 110px 0 125px 0;
+
+	h2{
+		color: white;
+		font-size: 36px;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	.prices__sub-title{
+		color: white;
+		text-align: center;
+		font-size: 18px;
+		max-width: 630px;
+		margin: 0 auto;
+		margin-bottom: 40px;
+	}
+
+	.row{
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 30px;
+	}
+	.prices-card{
+		max-width: 320px;
+		width: 100%;
+		padding: 30px;
+		border-radius: 20px;
+		background: white;
+		text-align: center;
+		p{
+			font-size: 20px;
+		}
+	}
+
+	h3{
+		font-size: 60px;
+		margin-bottom: 10px;
+		span{
+			font-size: 40px;
+			font-weight: 500;
+		}
+	}
+	button{
+		margin-top: 30px;
+		transition: all 0.2s;
+	}
+	button:hover{
+		margin-top: 30px;
+		background: #00D7E4 !important;
+		color: white !important;
+	}
+}
+
+@media all and (max-width: 780px) {
+	.prices{
+		background: url("../../../assets/img/backgroundMob-2.png") 0 0/100% 100% no-repeat;
+		padding: 70px 0;
+
+	.row{
+		gap: 10px;
+	}	
+
+	.prices-card{
+		max-width: calc(50% - 5px);
+		padding: 15px;
+	}
+
+	.prices-card{
+		max-width: calc(50% - 5px);
+		padding: 15px;
+		p{
+			font-size: 14px;
+		}
+	}
+
+	button{
+		min-width: 0 !important;
+		height: 40px !important;
+	}
+	
+	h3{
+		font-size: 30px;
+		span{
+			font-size: 20px;
+		}
+	}
+	}
+}
