@@ -1,43 +1,40 @@
 footer{
 	padding: 60px 0 30px 0;
 	background: url("../../../assets/img/background-3.png") center center/100% 100% no-repeat;
-	.footer__wrapper{
-		flex-wrap: wrap;
-		gap: 30px;
-		justify-content: space-between;
-	}
-	.footer__phone, .footer__social, img{
-		width: 260px;
-		flex-shrink: 0;
-		height: 42px;
-	}
-	.footer__phone{
-		display: block;
-		text-align: center;
+	a{
 		color: white;
-		font-size: 20px;
 		text-decoration: none;
-		line-height: 42px;
+		font-size: 20px;
+	}
+	.footer__wrapper{
+		justify-content: space-between;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		gap: 10px;
+	}
+	.footer__right, .footer__left{
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
 	}
 	.footer__social{
-		justify-content: flex-end;
-		gap: 20px;
-		img{
-			width: 42px;
-		}
+		justify-content: space-between;
 	}
-}
+}	
 
 @media all and (max-width: 780px) {
 	footer{
 		background: url("../../../assets/img/backgroundMob-3.png") center center/100% 100% no-repeat;
+		text-align: center;
 		.footer__wrapper{
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
 			flex-wrap: wrap;
-			justify-content: center;
-			gap: 20px;
+			gap: 15px;
 		}
-		.footer__social{
-			justify-content: center;
+		.footer__right, .footer__left{
+			gap: 15px;
 		}
 	}
 }

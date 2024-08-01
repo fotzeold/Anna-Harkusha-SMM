@@ -9,7 +9,7 @@ const About = () => {
 				<div className="about__wrapper row">
 					<div className="about__wrapper-author">
 						<img src={author} alt="author" />
-						<p className="txt-shadow">Anna Harkusha<br /><span>SMM спеціаліст</span></p>
+						<p className="txt-shadow">Анна Гаркуша<br /><span>SMM спеціаліст</span></p>
 					</div>
 					<div className="about__wrapper-message">
 						<h3>Привіт мене звати Анна</h3>

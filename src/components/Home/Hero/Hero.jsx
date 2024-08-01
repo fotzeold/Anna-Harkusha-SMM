@@ -13,9 +13,9 @@ const Hero = () => {
 					<p>Швидко. Якісно. Надійно</p>
 					<Button btnTxt={"Консультація"} btnStyle={{ width: "280px" }} />
 					<div className="hero__wrapper-social row">
-						<a href=""> <img src={iconInst} alt="icon-inst" /> </a>
-						<a href=""> <img src={iconTg} alt="icon-tg" /> </a>
-						<a href=""> <img src={iconFb} alt="icon-fb" /> </a>
+						<a href="https://www.instagram.com/annaharkusha_?igsh=MTdmNGxtdG5qdnBwNA%3D%3D&utm_source=qr"> <img src={iconInst} alt="icon-inst" /> </a>
+						<a href="https://t.me/annharkusha"> <img src={iconTg} alt="icon-tg" /> </a>
+						<a href="https://www.facebook.com/share/pHokGg8p1v3ktnzg/?mibextid=LQQJ4d"> <img src={iconFb} alt="icon-fb" /> </a>
 					</div>
 				</div>
 			</div>
