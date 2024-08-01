@@ -1,5 +1,5 @@
 .prices{
-	background: url("../../../assets/img/background-2.png") 0 0/100% 100% no-repeat;
+	background: url("../../../assets/img/background-2.png") 10% 0/120% 100% no-repeat;
 	padding: 110px 0 125px 0;
 
 	h2{
@@ -32,6 +32,7 @@
 		text-align: center;
 		p{
 			font-size: 20px;
+			min-height: 48px;
 		}
 	}
 
@@ -73,6 +74,7 @@
 		padding: 15px;
 		p{
 			font-size: 14px;
+			min-height: 34px;
 		}
 	}
 
@@ -87,5 +89,16 @@
 			font-size: 20px;
 		}
 	}
+	}
+}
+
+@media all and (max-width: 388px) {
+	.prices{
+
+	.prices-card:last-child{
+			p{
+				min-height: 68px;
+			}
+		}
 	}
 }

@@ -3,7 +3,7 @@ import { author } from "../../../service/image"
 
 const About = () => {
 	return (
-		<section className="about">
+		<section className="about" id="about">
 			<div className="container">
 				<h2 className="txt-shadow">Про мене</h2>
 				<div className="about__wrapper row">

@@ -9,7 +9,7 @@ const Advantages = () => {
 				<div className="advantages__wrapper row">
 					<div className="advantages__card">
 						<img src={advIc_1} alt="advIcon" />
-						<p className="txt-shadow">Ваші продажі виростуть в декілька разів з новою стртегією</p>
+						<p className="txt-shadow">Ваші продажі виростуть в декілька разів з новою стратегією</p>
 					</div>
 					<div className="advantages__card">
 						<img src={advIc_2} alt="advIcon" />

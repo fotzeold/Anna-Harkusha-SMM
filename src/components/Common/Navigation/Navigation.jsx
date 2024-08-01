@@ -6,9 +6,9 @@ const Navigation = ({ navControll }) => {
 
 	return (
 		<nav className={`navigation row ${activeNav ? "active" : ""}`}>
-			<a href="#" onClick={toggleActiveNav}>Про мене</a>
-			<a href="#" onClick={toggleActiveNav}>Послуги</a>
-			<a href="#" onClick={toggleActiveNav}>Контакти</a>
+			<a href="#about" onClick={toggleActiveNav}>Про мене</a>
+			<a href="#prices" onClick={toggleActiveNav}>Послуги</a>
+			<a href="#contacts" onClick={toggleActiveNav}>Контакти</a>
 			<Button
 				btnTxt={"Консультація"}
 				btnStyle={{ height: "35px" }}
