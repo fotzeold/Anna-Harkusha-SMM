@@ -2,16 +2,16 @@ import "./Hero.scss"
 import Button from "../../Common/Button/Button"
 import { iconInst, iconTg, iconFb, avatarMob, avatarPC } from "../../../service/image"
 
-const Hero = () => {
+const Hero = ({ t }) => {
 	return (
 		<section className="hero">
 			<div className="container">
 				<div className="hero__wrapper">
 					<img className="hero__avatar-pc" src={avatarPC} alt="avatar" />
 					<img className="hero__avatar-mob" src={avatarMob} alt="avatar" />
-					<h1>SMM-просування для вашої ніші на довгостроковій основі</h1>
-					<p>Швидко. Якісно. Надійно</p>
-					<Button btnTxt={"Консультація"} btnStyle={{ width: "280px" }} />
+					<h1>{t("hero.title")}</h1>
+					<p>{t("hero.subtitle")}</p>
+					<Button btnTxt={t("hero.btn")} btnStyle={{ width: "280px" }} />
 					<div className="hero__wrapper-social row">
 						<a href="https://www.instagram.com/annaharkusha_?igsh=MTdmNGxtdG5qdnBwNA%3D%3D&utm_source=qr"> <img src={iconInst} alt="icon-inst" /> </a>
 						<a href="https://t.me/annharkusha"> <img src={iconTg} alt="icon-tg" /> </a>

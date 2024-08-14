@@ -4,6 +4,26 @@
 		color: black;
 		text-decoration: none;
 	}
+	.navigation__lang{
+		gap: 6px !important;
+		button{
+			font-size: 20px;
+			border: none;
+			background: none;
+			color: rgb(192, 192, 192);
+			cursor: pointer;
+		}
+		button.active{
+			color: black;
+			font-weight: 500;
+		}
+
+		figure{
+			width: 1px;
+			height: 28px;
+			background: black;
+		}
+	}
 }
 
 @media all and (max-width: 780px) {
@@ -23,8 +43,21 @@
 		a{
 			font-size: 24px;
 		}
+		.navigation__lang{
+			gap: 15px !important;
+			button{
+				font-size: 24px;
+				border: none;
+				background: none;
+			}
+	
+			figure{
+				width: 1px;
+				height: 28px;
+				background: black;
+			}
+		}
 	}	
-
 	.navigation.active{
 		left: 0;
 	}

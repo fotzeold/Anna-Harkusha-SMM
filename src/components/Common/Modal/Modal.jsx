@@ -3,10 +3,12 @@ import Form from "../Form/Form"
 import { useSelector, useDispatch } from 'react-redux';
 import { closeModal } from "./ModalSlice";
 import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 const Modal = () => {
 	const isOpen = useSelector((state) => state.modal.isOpen);
 	const dispatch = useDispatch();
+	const { t } = useTranslation()
 
 	useEffect(() => {
 		if (isOpen) {
@@ -19,8 +21,8 @@ const Modal = () => {
 	return (
 		<div className={`modal ${isOpen ? "active" : ""}`}>
 			<div className="modal__window">
-				<h2>Залиште заявку <br /> і я з Вами звяжусь</h2>
-				<Form />
+				<h2>{t("modal.title")}</h2>
+				<Form t={t} />
 				<button
 					className="modal__btn-close"
 					onClick={() => dispatch(closeModal())}

@@ -17,10 +17,11 @@ const schema = yup.object().shape({
 		.required("Поле є обов'язковим"),
 });
 
-const Form = () => {
+const Form = ({ t }) => {
 	const { register, handleSubmit, formState: { errors }, reset } = useForm({
 		resolver: yupResolver(schema),
 	});
+
 
 	const dispatch = useDispatch()
 
@@ -30,14 +31,14 @@ const Form = () => {
 		let message = `Заявка з сайту\n\nІм'я: ${data.userName}\nТелефон: ${data.userPhone}`;
 		sendData(message)
 			.then(() => {
-				setFormStatus("Форма успішно надіслана!");
+				setFormStatus(t("form.okMessage"));
 				setTimeout(() => {
 					setFormStatus("");
 					dispatch(closeModal())
 				}, 2000);
 				reset();
 			})
-			.catch(() => setFormStatus("Виникла помилка при надсиланні форми."));
+			.catch(() => setFormStatus(t("form.errorMessage")));
 	}
 
 	return (
@@ -45,20 +46,20 @@ const Form = () => {
 			<form className="form" onSubmit={handleSubmit(sendForm)}>
 				<input
 					type="text"
-					placeholder="Ваше Прізвище та Ім’я"
+					placeholder={t("form.inpName")}
 					{...register('userName')}
 				/>
 				{errors.userName && <p className="error">{errors.userName.message}</p>}
 
 				<input
 					type="tel"
-					placeholder="Номер телефону"
+					placeholder={t("form.inpPhone")}
 					{...register('userPhone')}
 				/>
 				{errors.userPhone && <p className="error">{errors.userPhone.message}</p>}
 
 				{formStatus && <p className="form-status" style={{ textAlign: "center" }}>{formStatus}</p>}
-				<Button btnTxt={"Відправити"} shouldClick={false} />
+				<Button btnTxt={t("form.btn")} shouldClick={false} />
 			</form>
 		</div>
 	);

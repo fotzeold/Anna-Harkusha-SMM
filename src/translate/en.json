@@ -1,0 +1,140 @@
+{
+	"header": {
+		"about": "About Me",
+		"prices": "Services",
+		"contact": "Contact",
+		"btn": "Consultation"
+	},
+	"hero": {
+		"title": "Long-term SMM promotion for your niche",
+		"subtitle": "Fast. High-Quality. Reliable",
+		"btn": "Consultation"
+	},
+	"about": {
+		"title": "About Me",
+		"name": "Anna Harkusha",
+		"profession": "SMM Specialist",
+		"titleInfo": "Hello, my name is Anna",
+		"info": "I am an SMM specialist, and I will help your business reach new heights. My goal is to help brands unlock their potential and build strong relationships with their audience through creative content and thoughtful promotion."
+	},
+	"advantages": {
+		"title": "Why Choose Me?",
+		"adv_1": "Your sales will increase several times with the new strategy",
+		"adv_2": "You will unlock your full potential and build strong relationships with your audience",
+		"adv_3": "You will have selling posts that attract new customers"
+	},
+	"prices": {
+		"title": "Services and Prices",
+		"subTitle": "The price depends on the tasks set, the specifics of the business, the chosen promotion methods, and other factors.",
+		"btn": "Order",
+		"list": [
+			{
+				"price": "$50",
+				"descr": "Consultation"
+			},
+			{
+				"price": "$100+",
+				"descr": "SMM Strategy Development"
+			},
+			{
+				"price": "$3+",
+				"descr": "Content Preparation"
+			},
+			{
+				"price": "$70+",
+				"descr": "Regular Page Management"
+			},
+			{
+				"price": "$70+",
+				"descr": "Content Plan Preparation"
+			},
+			{
+				"price": "$100+",
+				"descr": "Targeting Services"
+			},
+			{
+				"price": "$200+",
+				"descr": "Comprehensive Promotion across Multiple Social Networks"
+			},
+			{
+				"price": "$90+",
+				"descr": "Facebook Page Creation and Promotion"
+			}
+		]
+	},
+	"certificate": {
+		"title": "My certificates",
+		"subtitle": "A sign of successful learning and development",
+		"ppcImg": "/img/ppc_en.jpg",
+		"smmImg": "/img/smm_en.jpg"
+	},
+	"reviews": {
+		"title": "Reviews",
+		"list": [
+			{
+				"user": "Moschko Alla",
+				"img": "/img/user_1.jpg",
+				"text": "Thanks to the promotion organized by Anna on several social networks, we were able to reach a larger audience and significantly increase sales. Her professional approach and ability to effectively use different platforms yielded excellent results. I recommend Anna as a specialist who can help your business grow!"
+			},
+			{
+				"user": "Volochkova Kateryna",
+				"img": "/img/user_2.jpg",
+				"text": "Working with social media is now a pleasure. The specialist helped set up all the processes, and now my page looks professional and appealing to the audience."
+			},
+			{
+				"user": "Lavrytskyi Viktor",
+				"img": "/img/user_3.jpg",
+				"text": "We received a strategic plan that fully aligns with our goals and resources. Very satisfied with the result. The implementation of this plan allowed us to optimize workflows and achieve significant progress. I recommend Anna to those looking for effective solutions!"
+			},
+			{
+				"user": "Tymoshok Svitlana",
+				"img": "/img/user_4.jpg",
+				"text": "The content plan prepared by the specialist was very detailed and helped organize publications several months in advance. Thanks to this plan, we were able to clearly structure our content, which greatly facilitated the work and ensured a steady flow of publications."
+			},
+			{
+				"user": "Veretin Mykhailo",
+				"img": "/img/user_5.jpg",
+				"text": "Anna's comprehensive approach and attention to detail made the collaboration effective. All my wishes were taken into account, and the results were noticeable within a few weeks."
+			},
+			{
+				"user": "Haiduk Olena",
+				"img": "/img/user_6.jpg",
+				"text": "Very satisfied with the cooperation with Anna! Now I have a clear strategy and quality content that brings subscribers and sales. Her professionalism and creative approach exceeded my expectations. Thanks to Anna, I was able to improve my brand and reach new heights in business."
+			},
+			{
+				"user": "Popova Anna",
+				"img": "/img/user_7.jpg",
+				"text": "Working with this SMM specialist exceeded all my expectations. A very professional approach and effective strategies that truly bring in clients."
+			},
+			{
+				"user": "Klychko Andrii",
+				"img": "/img/user_8.jpg",
+				"text": "It's very convenient to entrust the management of the page to Anna, as a professional. Now I have more time for other aspects of the business, while the page is constantly active and updated. She ensures regular content and audience engagement, which positively impacts the development of our brand. Cooperation with Anna has greatly eased my work!"
+			},
+			{
+				"user": "Samoylova Alina",
+				"img": "/img/user_9.jpg",
+				"text": "The consultation with Anna was very informative, and she helped me understand how to develop my brand on social media. All the advice turned out to be extremely useful."
+			},
+			{
+				"user": "Melnyk Oleh",
+				"img": "/img/user_10.jpg",
+				"text": "Excellent service! Everything we discussed was executed at the highest level. Anna demonstrated high professionalism and efficiency in her work. I recommend everyone looking for a reliable SMM specialist to contact her for outstanding results."
+			}
+		]
+	},
+	"form": {
+		"title": "Order a Consultation",
+		"inpName": "Your Full Name",
+		"inpPhone": "Phone Number",
+		"btn": "Send",
+		"okMessage": "Form has been sended!",
+		"errorMessage": "Some error! Try again later!"
+	},
+	"footer": {
+		"address": "Kyiv, Mykola Bazhan Avenue, 16"
+	},
+	"modal": {
+		"title": "Leave a request and I will contact you"
+	}
+}
