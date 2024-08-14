@@ -8,16 +8,16 @@ import * as yup from 'yup';
 import { useDispatch } from "react-redux";
 import { closeModal } from "../Modal/ModalSlice";
 
-const schema = yup.object().shape({
-	userName: yup.string().required("Поле є обов'язковим"),
-	userPhone: yup
-		.string()
-		.matches(/^[0-9+() -]*$/, "Введіть дійсний номер телефону")
-		.min(10, "Номер телефону має містити щонайменше 10 цифр")
-		.required("Поле є обов'язковим"),
-});
-
 const Form = ({ t }) => {
+	const schema = yup.object().shape({
+		userName: yup.string().required(t("form.fieldReq")),
+		userPhone: yup
+			.string()
+			.matches(/^[0-9+() -]*$/, t("form.corrPhone"))
+			.min(10, t("form.minPhone"))
+			.required(t("form.fieldReq")),
+	});
+
 	const { register, handleSubmit, formState: { errors }, reset } = useForm({
 		resolver: yupResolver(schema),
 	});

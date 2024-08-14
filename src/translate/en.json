@@ -129,7 +129,10 @@
 		"inpPhone": "Phone Number",
 		"btn": "Send",
 		"okMessage": "Form has been sended!",
-		"errorMessage": "Some error! Try again later!"
+		"errorMessage": "Some error! Try again later!",
+		"fieldReq": "Field is required",
+		"corrPhone": "Enter a valid phone number",
+		"minPhone": "Phone number has Reply at least 10 digits"
 	},
 	"footer": {
 		"address": "Kyiv, Mykola Bazhan Avenue, 16"
